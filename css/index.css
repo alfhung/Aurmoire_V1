@@ -1,0 +1,132 @@
+
+/* styles for the main body section */
+
+/* styles for splash image section */
+/* structure and background */
+.splash {
+    background-color: rgb(0,0,0);
+    color: rgb(255,255,255);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* styles and layout for text */
+.splash h3 {
+    padding-top: 50px;
+}
+
+.splash p {
+    padding-left: 30px;
+    font-size: 18px;
+}
+
+/* set styles for thumbnails section */
+/* thumbnail section background & layout */
+.thumbnails {
+    background-color: rgb(192,192,192);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* text styles and layout */
+.thumbnails h2 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.thumbnails h3 {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+/* set the layout for each container */
+.thumbnails .container .row .col-xs-4 {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+/* set the left & right border for middle container */
+.thumbnails .container .row .separator {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+/* set thumbnail text layout & styles */
+.thumbnails .container .row .col-xs-4 p {
+    text-align: left;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+/* set styles for thumbnail images */
+.thumbnails .container .row .col-xs-4 img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* set styles for trial section */
+/* set layout & background for trial section */
+.trial {
+    background-color: rgb(240,240,240);
+    padding-bottom: 15px;
+}
+
+/* set text styles & layout */
+.trial h2 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+/* set styles for the form */
+/* set general layout & styles for form */
+.trial-form {
+    padding: 10px;
+    margin: 5px 5px 15px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: rgb(220,220,220);
+    width: 300px;
+    text-align: center;
+}
+
+.trial-form input,
+.trial-form select,
+.trial-form textarea {
+    width: 225px;
+    margin-bottom: 10px;
+    padding: 4px;
+    border: 1px solid black;
+}
+
+.trial-form input:focus,
+.trial-form select:focus,
+.trial-form textarea:focus {
+    border: 3px solid #AFCDD8;
+}
+
+.trial-form textarea {
+    height: 80px;
+    resize: none;
+}
+
+.trial-form label {
+    display: block;
+}
+
+.trial-form .required {
+    font-weight: bold;
+    color: #F00;
+}
+
+.trial-form p {
+    font-size: 90%;
+}
